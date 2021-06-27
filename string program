@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<string.h>
+
+int main()
+{
+    char str[40], str2[30];
+    puts("enter any string");
+    gets(str);
+    puts("enter another string");
+    gets(str);
+    if(strcmp(str,str2)==0)
+       puts("both strings are equal");
+    else
+       puts("both strings are not equal");
+    return 0;
+}
